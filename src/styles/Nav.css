@@ -1,0 +1,51 @@
+.header {
+  box-sizing: border-box;
+}
+
+/* Main Home Banner and Input Search Container r*/
+.home-banner {
+  /* "../" for back to main folder */
+  background-image: url(https://i.postimg.cc/XNw65Ymz/home-banner.png);
+  background-size: cover;
+  background-repeat: round;
+  height: 450px;
+}
+
+.input-search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 5px;
+  font-size: 25px;
+  vertical-align: middle;
+  color: #aaa;
+}
+
+.inputForm {
+  width: 225px;
+  height: 40px;
+  padding-left: 28px;
+  color: gray;
+}
+
+.inputLabel-default {
+  position: absolute;
+  left: 30px;
+  color: gray;
+  font-weight: 350;
+  font-size: 15px;
+  margin-top: 8px;
+  transition-duration: 0.3s;
+}
+.inputLabel-focusIn {
+  position: absolute;
+  left: 30px;
+  color: #9b9b9b;
+  font-size: 10px;
+  margin-top: 1px;
+}

@@ -1,0 +1,45 @@
+/* Coupons Container */
+.holiday-coupon-container {
+  width: 540px;
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: -4em;
+}
+.holiday-coupon-container > .d-table-cell {
+  height: 100px;
+}
+
+/* Cashback Container */
+.cashback-container > div {
+  transition: transform 0.2s;
+}
+.cashback-container > div:hover {
+  transform: scale(1.05);
+}
+
+/* Introducing On-Time Guarantee & Track My Bus Container
+      & IOS/Android Container & We Promise To Deliver Container */
+.on-time-guarantee,
+.track-my-bus,
+.ios-android-container .d-flex,
+.we-promise-container > div:nth-child(2) {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.track-my-bus .d-table-cell {
+  height: 260px;
+}
+
+/* Convenience On-The-Go IOS/Android Container */
+.ios-android-container > div::after {
+  content: "";
+  background-image: url(https://i.postimg.cc/MK7ZzDzX/city-scape-app-download.png);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
