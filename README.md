@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Red Bus Clone
+
+![image](https://github.com/Shivam839/redbus_clone/assets/115664905/081d5e9d-e238-44d0-89cc-f3309e7a9fcd)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
